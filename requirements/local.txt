@@ -1,0 +1,12 @@
+-r production.txt
+
+# ------------------------------------------------------------------------------
+# Local requirements
+# ------------------------------------------------------------------------------
+
+Werkzeug[watchdog]==3.0.4 # https://github.com/pallets/werkzeug
+psycopg[binary]==3.2.2  # https://github.com/psycopg/psycopg
+ruff==0.6.7  # https://github.com/astral-sh/ruff
+djlint==1.35.2  # https://github.com/Riverside-Healthcare/djLint
+django-debug-toolbar==4.4.6  # https://github.com/jazzband/django-debug-toolbar
+django-extensions==3.2.3  # https://github.com/django-extensions/django-extensions
